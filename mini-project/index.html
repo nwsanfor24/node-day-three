@@ -16,34 +16,12 @@
 
 <body>
 
-    <!-- Navigation Section -->
-    <nav>
-        <div class="nav-wrapper blue-grey darken-2">
-            <a href="#!" class="brand-logo"><span class="logo grey-text text-lighten-2">Mini-Project</span></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <ul class="sidenav" id="mobile-demo">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <br>
-    <br>
-
     <!--User Input Area-->
     <div class="row">
         <form class="col s12">
             <div class="row">
                 <div class="input-field col s6">
-                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                    <input id="first_name" type="text" class="validate">
                     <label for="first_name">First Name</label>
                 </div>
                 <div class="input-field col s6">
@@ -52,25 +30,27 @@
                 </div>
             </div>
             <div class="row">
-                <div class="input-field col s12">
-                    <input id="password" type="password" class="validate">
-                    <label for="password">Password</label>
+                <div class="input-field col s6">
+                    <input id="bio" type="text" class="validate">
+                    <label for="Bio">Bio    </label>
                 </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="email" type="email" class="validate">
-                    <label for="email">Email</label>
+                <div class="input-field col s6">
+                    <input id="location" type="text" class="validate">
+                    <label for="Location">Location</label>
                 </div>
-            </div>
+                <div class="input-field col s6">
+                    <input id="linkedin" type="text" class="validate">
+                    <label for="LinkedIn">LinkedIn</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="github" type="text" class="validate">
+                    <label for="Github">Github</label>
+                </div>
+
         </form>
     </div>
     <br>
     <br>
-
-
-
-
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
