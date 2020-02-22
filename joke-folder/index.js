@@ -14,8 +14,7 @@ axios.get("https://icanhazdadjoke.com/", config)
 
     appendFileAsync('jokes.txt', joke + "\n").then(function() {
         readFileAsync("jokes.txt", "utf8").then(function(data) {
-            console.log("Saved Dad jokes:");
-            console.log(data);
+            console.log("Saved Dad jokes:", data);
         });
     });
   })
