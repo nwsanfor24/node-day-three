@@ -15,7 +15,7 @@ async function combineAnimals() {
 
         await writeFileAsync(
             "combined.json",
-            JSON.stringify(sorted, null, 2),
+            JSON.stringify(animalJSON, null, 2),
             "utf8"
         );
 
