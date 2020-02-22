@@ -22,6 +22,7 @@ fs.readFile("animals.json", "utf8", function(err, data) {
       }
   });
 
+  // Turn the arrays into JSON strings so they can be written to files
   const dogJSON = JSON.stringify(dogs, null, 2);
   const catJSON = JSON.stringify(cats, null, 2);
 
